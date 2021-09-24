@@ -8,7 +8,7 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path:'about',
+    path:'about/:ip',
     component: AboutComponent
   }
 
